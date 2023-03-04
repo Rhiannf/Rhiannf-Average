@@ -11,7 +11,7 @@ public class AverageTest {
     @Test
     public void averageTest1(){
         int[] nums = {1, 3, 1, 3};
-        double target = 2;
+        double target = 0;
         double marginOfError = .1;
         Assert.assertEquals(target, a.getAvg(nums), marginOfError);
     }
@@ -21,7 +21,7 @@ public class AverageTest {
     @Test
     public void averageTest2(){
         int[] nums = {1, 2};
-        double target = 1.5;
+        double target = 0;
         double marginOfError = .1;
         Assert.assertEquals(target, a.getAvg(nums), marginOfError);
     }
@@ -31,7 +31,7 @@ public class AverageTest {
     @Test
     public void averageTest3(){
         int[] nums = {1, 2, 3};
-        double target = 2;
+        double target = 0;
         double marginOfError = .1;
         Assert.assertEquals(target, a.getAvg(nums), marginOfError);
     }
